@@ -6,6 +6,8 @@ import random as rd
 # Globale Variablen und Methoden
 kl = 0
 ph = 1
+
+# Einführungstext als mehrzeiliger Kommentar
 job = """
     * PARKHAUS SIMULATION
     
@@ -26,6 +28,7 @@ job = """
     gung? Es wird ein Parkhaus mit identischen Etagen erstellt.
 """
 
+# Das Menu zur Ausgabe. Wird wiederholt ausgegeben.
 menu = """
     
     A = zeige Parkplätze
@@ -191,6 +194,7 @@ def main():
             main()
         else:
             print("Eingabe ohne Funktion!")
-        
+
+# Start als Programm. Einsprung in die main-Funktion.
 if __name__ == "__main__":
     main()
